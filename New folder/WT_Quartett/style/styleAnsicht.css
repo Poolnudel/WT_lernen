@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+.UI_elemente {
+    width: 96%;
+    float: left;
+    display: inline-flex;
+    margin: 2%;
+}
+
+.nextB,
+.backB,
+.ansicht {
+    float: left;
+    width: 33%;
+    min-height: 90vh;
+    margin-right: 1%;
+    background: #eee;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.nextB {
+    margin-right: 0;
+}

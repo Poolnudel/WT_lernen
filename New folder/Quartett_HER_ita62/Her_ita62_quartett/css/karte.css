@@ -1,0 +1,45 @@
+body {
+    background-image: url("../img/hintergrund.jpg");
+    background-size: 100% 200vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 0 3% 3%;
+
+}
+
+div.karte {
+    width: 400px;
+    height: 450px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    background-color: rgba(255, 123, 0, 0.726);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+table {
+    padding: 10px;
+    width: 300px;
+}
+
+
+
+div.link{
+    position: absolute;
+    top: 405px;
+    left: 85px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(228, 180, 180, 0.7);
+}
+
+div.link2{
+    position: absolute;
+    top: 760px;
+    left: 85px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(228, 180, 180, 0.7);
+}
